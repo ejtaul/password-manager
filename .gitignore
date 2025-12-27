@@ -1,0 +1,15 @@
+# Password Manager specific
+password_vault.db
+master.key
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
