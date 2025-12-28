@@ -102,7 +102,117 @@ Enter service name: GitHub
 Username: user@example.com
 Password: xK9@mP2#vL8$nQ4&wR7!
 ```
+## 📸 Screenshots
 
+### Setup Process
+
+**Project Structure**
+
+![Project Structure](images/setup-project-structure.png)
+
+*Organized project layout with all necessary files*
+
+---
+
+**Requirements File**
+
+![Requirements](images/setup-requirements.png)
+
+*Simple dependency management with cryptography library*
+
+---
+
+**Installing Dependencies**
+
+![Pip Install](images/setup-pip-install.png)
+
+*Installing the cryptography package*
+
+---
+
+### Application Demo
+
+**First Time Setup**
+
+![First Setup](images/demo-first-setup.png)
+
+*Initial launch prompts for master password creation*
+
+---
+
+**Master Password Created**
+
+![Master Password Success](images/demo-master-password-created.png)
+
+*Successful master password setup with encryption key generation*
+
+---
+
+**Adding a Password**
+
+![Generated Password](images/demo-generated-password.png)
+
+*Generating a strong random password for a new entry*
+
+---
+
+**Viewing Stored Passwords**
+
+![Stored Passwords](images/demo-stored-passwords.png)
+
+*List of all stored password entries with metadata*
+
+---
+
+**Updated Files**
+
+![Updated Files](images/demo-updated-files.png)
+
+*Database and key files created after first use*
+
+---
+
+**Security Features in Action**
+
+![Security Features](images/demo-security-features.png)
+
+*Password retrieval showing decryption working correctly*
+
+---
+
+### Code Implementation
+
+**Class Structure and Imports**
+
+![Code Structure](images/code-imports-class.png)
+
+*Clean class-based design with necessary security libraries*
+
+---
+
+**Security Implementation**
+
+![Security Code](images/code-security.png)
+
+*PBKDF2 key derivation with 100,000 iterations and Fernet encryption*
+
+---
+
+**Password Generator**
+
+![Password Generator](images/code-password-generator.png)
+
+*Cryptographically secure random password generation using secrets module*
+
+---
+
+**Database Operations**
+
+![Database Operations](images/code-database-operations.png)
+
+*SQLite integration with encrypted password storage*
+
+---
 ## 🏗️ Project Structure
 
 ```
